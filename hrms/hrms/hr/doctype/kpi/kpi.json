@@ -1,0 +1,104 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "KPI.####",
+ "creation": "2022-08-17 14:35:29.217968",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "kpi_name",
+  "kpi_start",
+  "kpi_end",
+  "column_break_4",
+  "kpi_percent",
+  "kpi_status",
+  "m\u00f4_t\u1ea3_chi_ti\u1ebft_section",
+  "kpi_dsc",
+  "column_break_7",
+  "kpi_list"
+ ],
+ "fields": [
+  {
+   "fieldname": "kpi_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "T\u00ean KPI",
+   "reqd": 1
+  },
+  {
+   "fieldname": "kpi_dsc",
+   "fieldtype": "Text Editor",
+   "label": "M\u00f4 t\u1ea3"
+  },
+  {
+   "fieldname": "kpi_percent",
+   "fieldtype": "Percent",
+   "label": "Ti\u1ebfn \u0111\u1ed9"
+  },
+  {
+   "fieldname": "kpi_start",
+   "fieldtype": "Date",
+   "label": "B\u1eaft \u0111\u1ea7u"
+  },
+  {
+   "fieldname": "kpi_end",
+   "fieldtype": "Date",
+   "label": "K\u1ebft Th\u00fac"
+  },
+  {
+   "fieldname": "kpi_status",
+   "fieldtype": "Select",
+   "label": "Tr\u1ea1ng th\u00e1i",
+   "options": "\u0110\u00e3 l\u00ean l\u1ecbch\n\u0110ang th\u1ef1c hi\u1ec7n\nCh\u1edd \u0111\u00e1nh gi\u00e1\nHo\u00e0n th\u00e0nh\nKh\u00f4ng ho\u00e0n th\u00e0nh"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "column_break_7",
+   "fieldtype": "Section Break",
+   "label": "Danh s\u00e1ch nh\u00e2n vi\u00ean th\u1ef1c hi\u1ec7n"
+  },
+  {
+   "fieldname": "kpi_list",
+   "fieldtype": "Table",
+   "label": "Danh s\u00e1ch nh\u00e2n vi\u00ean th\u1ef1c hi\u1ec7n",
+   "options": "NhanVienKPI"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "m\u00f4_t\u1ea3_chi_ti\u1ebft_section",
+   "fieldtype": "Section Break",
+   "label": "M\u00f4 t\u1ea3 chi ti\u1ebft"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-08-17 14:47:00.020337",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "KPI",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "DD.####",
+ "creation": "2022-08-12 22:39:06.145679",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ma_nhan_vien",
+  "attendance_day",
+  "attendance_in",
+  "attendance_out",
+  "lich_lam_viec",
+  "ki\u1ec3m_tra"
+ ],
+ "fields": [
+  {
+   "fieldname": "attendance_day",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Ng\u00e0y ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "attendance_in",
+   "fieldtype": "Time",
+   "label": "Th\u1eddi gian v\u00e0o"
+  },
+  {
+   "fieldname": "attendance_out",
+   "fieldtype": "Time",
+   "label": "Th\u1eddi gian ra"
+  },
+  {
+   "fieldname": "ma_nhan_vien",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "M\u00e3 nh\u00e2n vi\u00ean",
+   "options": "NhanVien",
+   "reqd": 1
+  },
+  {
+   "fieldname": "lich_lam_viec",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "L\u1ecbch l\u00e0m vi\u1ec7c",
+   "options": "LichLamViec",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ki\u1ec3m_tra",
+   "fieldtype": "Button",
+   "label": "Ki\u1ec3m tra"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-08-17 00:13:10.344865",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "DiemDanh",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

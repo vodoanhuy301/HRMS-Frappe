@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{department_id}-{position_id}",
+ "creation": "2022-07-26 00:31:27.845044",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "department_id",
+  "position_id",
+  "position_name",
+  "position_salary"
+ ],
+ "fields": [
+  {
+   "fieldname": "position_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "T\u00ean v\u1ecb tr\u00ed",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "department_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "M\u00e3 ph\u00f2ng ban",
+   "options": "PhongBan",
+   "reqd": 1
+  },
+  {
+   "fieldname": "position_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "M\u00e3 v\u1ecb tr\u00ed",
+   "reqd": 1
+  },
+  {
+   "fieldname": "position_salary",
+   "fieldtype": "Float",
+   "label": "H\u1ec7 s\u1ed1 l\u01b0\u01a1ng"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-08-12 22:48:06.941196",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "ViTri",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

@@ -1,0 +1,168 @@
+{
+ "actions": [],
+ "autoname": "NV.####",
+ "creation": "2022-07-25 15:50:42.711220",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_name",
+  "position",
+  "position_name",
+  "employee_img",
+  "\u1ea3nh_nh\u00e2n_vi\u00ean",
+  "column_break_4",
+  "employee_gender",
+  "employee_birthday",
+  "employee_cccd",
+  "employee_address",
+  "employee_email",
+  "column_break_6",
+  "employee_level",
+  "employee_pass",
+  "\u0111i\u1ec3m_danh_section",
+  "schedule_id",
+  "attendance",
+  "l\u01b0\u01a1ng_section",
+  "employee_salary"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "H\u1ecd v\u00e0 t\u00ean",
+   "reqd": 1
+  },
+  {
+   "fieldname": "employee_img",
+   "fieldtype": "Attach Image",
+   "label": "Link \u1ea3nh nh\u00e2n vi\u00ean"
+  },
+  {
+   "fieldname": "employee_email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "employee_pass",
+   "fieldtype": "Password",
+   "label": "M\u1eadt kh\u1ea9u"
+  },
+  {
+   "default": "Nam",
+   "fieldname": "employee_gender",
+   "fieldtype": "Select",
+   "label": "Gi\u1edbi t\u00ednh",
+   "options": "Nam\nN\u1eef\nKh\u00e1c"
+  },
+  {
+   "fieldname": "employee_birthday",
+   "fieldtype": "Date",
+   "label": "Ng\u00e0y sinh"
+  },
+  {
+   "fieldname": "employee_address",
+   "fieldtype": "Data",
+   "label": "\u0110\u1ecba ch\u1ec9"
+  },
+  {
+   "fieldname": "employee_cccd",
+   "fieldtype": "Data",
+   "label": "CCCD"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "\u0110\u1ea1i h\u1ecdc",
+   "fieldname": "employee_level",
+   "fieldtype": "Select",
+   "label": "Tr\u00ecnh \u0111\u1ed9",
+   "options": "THPT\nCao \u0111\u1eb3ng\n\u0110\u1ea1i h\u1ecdc"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "bold": 1,
+   "fieldname": "schedule_id",
+   "fieldtype": "Table",
+   "label": "L\u1ecbch l\u00e0m vi\u1ec7c",
+   "options": "LichLamViec"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "l\u01b0\u01a1ng_section",
+   "fieldtype": "Section Break",
+   "label": "L\u01b0\u01a1ng"
+  },
+  {
+   "default": "2.34",
+   "fieldname": "employee_salary",
+   "fieldtype": "Float",
+   "label": "H\u1ec7 s\u1ed1 l\u01b0\u01a1ng"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "\u0111i\u1ec3m_danh_section",
+   "fieldtype": "Section Break",
+   "label": "\u0110i\u1ec3m Danh"
+  },
+  {
+   "fieldname": "\u1ea3nh_nh\u00e2n_vi\u00ean",
+   "fieldtype": "Image",
+   "label": "\u1ea2nh nh\u00e2n vi\u00ean",
+   "options": "employee_img"
+  },
+  {
+   "bold": 1,
+   "fieldname": "attendance",
+   "fieldtype": "Table",
+   "label": "\u0110i\u1ec3m danh",
+   "options": "DiemDanh"
+  },
+  {
+   "fieldname": "position_name",
+   "fieldtype": "Data",
+   "label": "T\u00ean v\u1ecb tr\u00ed"
+  },
+  {
+   "fieldname": "position",
+   "fieldtype": "Link",
+   "label": "M\u00e3 v\u1ecb tr\u00ed",
+   "options": "ViTri"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-08-17 14:16:55.123899",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "NhanVien",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

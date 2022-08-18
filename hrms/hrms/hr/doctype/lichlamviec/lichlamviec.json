@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{schedule_id}-{##}",
+ "creation": "2022-07-26 15:09:41.372009",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "schedule_id",
+  "schedule_name",
+  "schedule_in",
+  "schedule_out",
+  "schedule_day"
+ ],
+ "fields": [
+  {
+   "fieldname": "schedule_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "T\u00ean l\u1ecbch l\u00e0m vi\u1ec7c",
+   "reqd": 1
+  },
+  {
+   "fieldname": "schedule_in",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Th\u1eddi gian b\u1eaft \u0111\u1ea7u",
+   "reqd": 1
+  },
+  {
+   "fieldname": "schedule_out",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Th\u1eddi gian k\u1ebft th\u00fac",
+   "reqd": 1
+  },
+  {
+   "fieldname": "schedule_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "M\u00e3 l\u1ecbch l\u00e0m vi\u1ec7c",
+   "reqd": 1
+  },
+  {
+   "fieldname": "schedule_day",
+   "fieldtype": "Select",
+   "label": "Ng\u00e0y trong tu\u1ea7n",
+   "options": "Th\u1ee9 hai\nTh\u1ee9 ba\nTh\u1ee9 t\u01b0\nTh\u1ee9 n\u0103m\nTh\u1ee9 s\u00e1u\nTh\u1ee9 b\u1ea3y\nCh\u1ee7 nh\u1eadt"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-08-17 00:10:41.228948",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "LichLamViec",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

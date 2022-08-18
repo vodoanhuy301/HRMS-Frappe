@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "####",
+ "creation": "2022-08-17 14:46:28.834431",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "kpi_employee",
+  "employee_name",
+  "position_id",
+  "position_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "kpi_employee",
+   "fieldtype": "Link",
+   "label": "M\u00e3 nh\u00e2n vi\u00ean",
+   "options": "NhanVien"
+  },
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "H\u1ecd v\u00e0 t\u00ean"
+  },
+  {
+   "fieldname": "position_id",
+   "fieldtype": "Link",
+   "label": "M\u00e3 v\u1ecb tr\u00ed",
+   "options": "ViTri"
+  },
+  {
+   "fieldname": "position_name",
+   "fieldtype": "Data",
+   "label": "T\u00ean v\u1ecb tr\u00ed"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-08-17 14:46:28.834431",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "NhanVienKPI",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
